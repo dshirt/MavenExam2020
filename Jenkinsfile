@@ -11,7 +11,7 @@ pipeline {
 
         stage('Maven') {
           steps {
-            bat 'mvn verify'
+            bat 'bat : \'mvn verify\''
           }
         }
 
